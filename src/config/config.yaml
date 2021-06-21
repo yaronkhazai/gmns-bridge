@@ -6,6 +6,6 @@ glucologweb:
   dataURL: https://www.glucologweb.com/cgm/getDayGraphData/
   units: mmol/l #mg/dl
 
-nightScout:
+nightscout:
   URL: <nightScout URL>
   token: <nightScout Token>
