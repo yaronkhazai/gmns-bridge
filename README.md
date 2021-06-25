@@ -15,12 +15,16 @@ English - TBD
 
 
 # installation guides to run local version(not from the zip)
-*assuming that you have python3 and pip installed
+_*assuming that you have python3 and pip installed_
 
 git clone https://github.com/yaronkhazai/gmns-bridge.git
+
 cd gmns-bridge
+
 pip install PyYAML --target=./src/packages
+
 pip install requests --target=./src/packages
+
 
 update the config file with your login information
 
