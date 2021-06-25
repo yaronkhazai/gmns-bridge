@@ -7,5 +7,9 @@ glucologweb:
   units: mmol/l #mg/dl
 
 nightscout:
-  URL: <nightScout URL>
-  token: <nightScout Token>
+  URL: <nightScout URL>  # without trailing slash "/" ex. https://xxx.herokuapp.com
+  token: <nightScout Token> 
+
+general:
+  numOfReadingToSync: 60  #increasing this number will make the app use more cumputing time & networking and may increase costs
+  logLevel: 5  # 0 for no logs, 10 for all logs, 5 for default log level
