@@ -11,7 +11,7 @@ the zipped file contains everything needed to run on aws Lambda(https://aws.amaz
 [Bulgarian](https://github.com/yaronkhazai/gmns-bridge/blob/main/guides/BG-GlucoMen-NightScout-Manual.pdf)
 
 
-English - TBD
+[English](https://github.com/yaronkhazai/gmns-bridge/blob/main/guides/Glucomen-NightScout-Manual_EN.pdf)
 
 
 # installation guides to run local version(not from the zip)
