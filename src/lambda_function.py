@@ -64,7 +64,7 @@ def lambda_handler(event, context):
     cnt = 0
     entries=[]
     for my_value in payload["entryPoints"][0]:
-        entry = {"type": "svg", "device": "gmns-bridge", "direction": "Flat", "filtered": 0, "unfiltered": 0, "noise": 0, "rssi": 100, "utcOffset": 0}
+        entry = {"type": "sgv", "device": "gmns-bridge", "direction": "Flat", "filtered": 0, "unfiltered": 0, "noise": 0, "rssi": 100, "utcOffset": 0}
         my_y = float(my_value["y"])
         date_time_str = processed_date + ' ' + my_value["x"] + ':00'
         date_time_obj = datetime.strptime(date_time_str+' +0000', '%Y-%m-%d %H:%M:%S %z')
